@@ -11,7 +11,7 @@ import SwiftUI
 struct GearGuruApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(LaunchScreenViewModel())
         }
     }
 }
