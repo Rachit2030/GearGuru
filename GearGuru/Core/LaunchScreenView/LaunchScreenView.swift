@@ -27,6 +27,7 @@ struct LaunchScreenView: View {
                         playSound()
                         DispatchQueue.main.asyncAfter(deadline: .now() + 3){
                             viewmodel.isStartStopClicked = true
+                            viewmodel.animationValue += 1
                         }
                         
                     }

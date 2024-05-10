@@ -13,8 +13,11 @@
 		3CF2EE172BECD6D500439966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF2EE162BECD6D500439966 /* Preview Assets.xcassets */; };
 		3CF2EE242BECD7D700439966 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE232BECD7D700439966 /* LaunchScreenView.swift */; };
 		3CF2EE262BECE40900439966 /* LaunchScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE252BECE40900439966 /* LaunchScreenViewModel.swift */; };
-		3CF2EE292BECE48A00439966 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE282BECE48A00439966 /* HomeTabView.swift */; };
+		3CF2EE292BECE48A00439966 /* CarListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE282BECE48A00439966 /* CarListingView.swift */; };
 		3CF2EE2C2BECE67500439966 /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF2EE2B2BECE67500439966 /* engine.mp3 */; };
+		3CF2EE312BEDE8BD00439966 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE302BEDE8BD00439966 /* HomeTabView.swift */; };
+		3CF2EE342BEDE9E300439966 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE332BEDE9E300439966 /* ProfileView.swift */; };
+		3CF2EE372BEDEB2200439966 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE362BEDEB2200439966 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +28,11 @@
 		3CF2EE162BECD6D500439966 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CF2EE232BECD7D700439966 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		3CF2EE252BECE40900439966 /* LaunchScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewModel.swift; sourceTree = "<group>"; };
-		3CF2EE282BECE48A00439966 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		3CF2EE282BECE48A00439966 /* CarListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CarListingView.swift; path = ../HomeTabView/CarListingView.swift; sourceTree = "<group>"; };
 		3CF2EE2B2BECE67500439966 /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
+		3CF2EE302BEDE8BD00439966 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		3CF2EE332BEDE9E300439966 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3CF2EE362BEDEB2200439966 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		3CF2EE0E2BECD6D100439966 /* GearGuru */ = {
 			isa = PBXGroup;
 			children = (
+				3CF2EE352BEDEB0B00439966 /* Utilities */,
 				3CF2EE2A2BECE65A00439966 /* Sounds */,
 				3CF2EE202BECD7A300439966 /* Components */,
 				3CF2EE1F2BECD79F00439966 /* Model */,
@@ -89,6 +96,8 @@
 		3CF2EE1E2BECD79C00439966 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				3CF2EE322BEDE9D300439966 /* ProfileView */,
+				3CF2EE2D2BEDE88000439966 /* CarListingView */,
 				3CF2EE272BECE47300439966 /* HomeTabView */,
 				3CF2EE222BECD7C000439966 /* LaunchScreenView */,
 				3CF2EE212BECD7AF00439966 /* Root */,
@@ -130,7 +139,7 @@
 		3CF2EE272BECE47300439966 /* HomeTabView */ = {
 			isa = PBXGroup;
 			children = (
-				3CF2EE282BECE48A00439966 /* HomeTabView.swift */,
+				3CF2EE302BEDE8BD00439966 /* HomeTabView.swift */,
 			);
 			path = HomeTabView;
 			sourceTree = "<group>";
@@ -141,6 +150,30 @@
 				3CF2EE2B2BECE67500439966 /* engine.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3CF2EE2D2BEDE88000439966 /* CarListingView */ = {
+			isa = PBXGroup;
+			children = (
+				3CF2EE282BECE48A00439966 /* CarListingView.swift */,
+			);
+			path = CarListingView;
+			sourceTree = "<group>";
+		};
+		3CF2EE322BEDE9D300439966 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				3CF2EE332BEDE9E300439966 /* ProfileView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		3CF2EE352BEDEB0B00439966 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3CF2EE362BEDEB2200439966 /* Extensions.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,8 +249,11 @@
 			files = (
 				3CF2EE122BECD6D100439966 /* ContentView.swift in Sources */,
 				3CF2EE262BECE40900439966 /* LaunchScreenViewModel.swift in Sources */,
-				3CF2EE292BECE48A00439966 /* HomeTabView.swift in Sources */,
+				3CF2EE312BEDE8BD00439966 /* HomeTabView.swift in Sources */,
+				3CF2EE372BEDEB2200439966 /* Extensions.swift in Sources */,
+				3CF2EE292BECE48A00439966 /* CarListingView.swift in Sources */,
 				3CF2EE102BECD6D100439966 /* GearGuruApp.swift in Sources */,
+				3CF2EE342BEDE9E300439966 /* ProfileView.swift in Sources */,
 				3CF2EE242BECD7D700439966 /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

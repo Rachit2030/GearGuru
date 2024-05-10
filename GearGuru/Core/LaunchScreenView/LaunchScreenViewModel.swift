@@ -10,4 +10,5 @@ import Foundation
 @MainActor
 class LaunchScreenViewModel: ObservableObject{
     @Published var isStartStopClicked: Bool = false
+    @Published var animationValue = 1
 }

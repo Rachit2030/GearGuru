@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         Group{
             if(viewmodel.isStartStopClicked){
-                HomeTabView()
+               HomeTabView()
             }else{
                 LaunchScreenView()
             }
@@ -22,4 +22,11 @@ struct ContentView: View {
 
 #Preview {
     ContentView().environmentObject(LaunchScreenViewModel())
+}
+
+extension Animation{
+    static func snappy(duration: Double) -> Animation{
+        return Animation.interpolatingSpring(stiffness: 4, damping: 0.7)
+            .speed(2)
+    }
 }
