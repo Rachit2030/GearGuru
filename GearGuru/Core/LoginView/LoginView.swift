@@ -12,10 +12,12 @@ struct LoginView: View {
     @State private var password: String = ""
     var body: some View {
         NavigationStack {
-            VStack{
+            VStack(alignment: .center){
                 Image("icon_default")
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
+                    .frame(height: 100)
+                    .padding(.vertical)
                 
              
                 VStack(alignment: .leading,spacing:12){
