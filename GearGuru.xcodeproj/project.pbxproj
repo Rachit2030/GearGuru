@@ -22,6 +22,7 @@
 		3CF2EE3C2BEF64C500439966 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE3B2BEF64C500439966 /* RegistrationView.swift */; };
 		3CF2EE3E2BEF752400439966 /* LoginViewTextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE3D2BEF752400439966 /* LoginViewTextComponent.swift */; };
 		3CF2EE402BEF763D00439966 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF2EE3F2BEF763D00439966 /* Launch Screen.storyboard */; };
+		3CF2EE442BF0C52400439966 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE432BF0C52400439966 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		3CF2EE3B2BEF64C500439966 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		3CF2EE3D2BEF752400439966 /* LoginViewTextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewTextComponent.swift; sourceTree = "<group>"; };
 		3CF2EE3F2BEF763D00439966 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3CF2EE432BF0C52400439966 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,10 +192,27 @@
 		3CF2EE382BEF64A000439966 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
+				3CF2EE422BF0C50E00439966 /* ViewModel */,
+				3CF2EE412BF0C50900439966 /* View */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		3CF2EE412BF0C50900439966 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				3CF2EE392BEF64B300439966 /* LoginView.swift */,
 				3CF2EE3B2BEF64C500439966 /* RegistrationView.swift */,
 			);
-			path = LoginView;
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CF2EE422BF0C50E00439966 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CF2EE432BF0C52400439966 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +295,7 @@
 				3CF2EE292BECE48A00439966 /* CarListingView.swift in Sources */,
 				3CF2EE102BECD6D100439966 /* GearGuruApp.swift in Sources */,
 				3CF2EE3E2BEF752400439966 /* LoginViewTextComponent.swift in Sources */,
+				3CF2EE442BF0C52400439966 /* AuthViewModel.swift in Sources */,
 				3CF2EE342BEDE9E300439966 /* ProfileView.swift in Sources */,
 				3CF2EE242BECD7D700439966 /* LaunchScreenView.swift in Sources */,
 				3CF2EE3C2BEF64C500439966 /* RegistrationView.swift in Sources */,

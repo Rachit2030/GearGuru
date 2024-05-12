@@ -30,8 +30,9 @@ struct LoginView: View {
                     
                 }.padding()
                 
-                Button{
-                    
+                NavigationLink{
+                    HomeTabView()
+                        .navigationBarBackButtonHidden()
                 }label: {
                     HStack{
                         Text("Log In")
