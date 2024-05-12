@@ -12,14 +12,27 @@ struct CarListingView: View {
         NavigationStack {
             ScrollView {
                 
-                CarCardView(imageString: "mustang_image1", title: "Mustang GT",cardColor: .white,shadowColor: .white,titleColor: .darkColor,height: 200,offset: 40,imageHeight: 220,imageWidth: 300)
+                NavigationLink{
+                    CarDetailView()
+                        .navigationBarBackButtonHidden()
+                }label:{
+                    
+                    CarCardView(imageString: "mustang_image1", title: "Mustang GT",cardColor: .white,shadowColor: .white,titleColor: .darkColor,height: 200,offset: 40,imageHeight: 220,imageWidth: 300)
+                }
                 
-                CarCardView(imageString: "g63_image1", title: "Mercedes G63",height: 250,offset: 60,imageHeight: 220,imageWidth: 300)
+                NavigationLink{
+                    CarDetailView()
+                        .navigationBarBackButtonHidden()
+                }label:{
+                    CarCardView(imageString: "g63_image1", title: "Mercedes G63",height: 250,offset: 60,imageHeight: 220,imageWidth: 300)
+                }
                 
-                
-                
-                CarCardView(imageString: "audi", title: "Ferrari 458 Spider",cardColor: .white,shadowColor: .white,titleColor: .darkColor,height: 200,offset: 70,imageHeight: 180,imageWidth: 300)
-                
+                NavigationLink{
+                    CarDetailView()
+                        .navigationBarBackButtonHidden()
+                }label:{
+                    CarCardView(imageString: "audi", title: "Ferrari 458 Spider",cardColor: .white,shadowColor: .white,titleColor: .darkColor,height: 200,offset: 70,imageHeight: 180,imageWidth: 300)
+                }
                 
                 //            Divider()
                 //                .padding()

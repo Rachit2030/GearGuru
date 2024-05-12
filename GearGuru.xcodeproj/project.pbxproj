@@ -23,6 +23,8 @@
 		3CF2EE3E2BEF752400439966 /* LoginViewTextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE3D2BEF752400439966 /* LoginViewTextComponent.swift */; };
 		3CF2EE402BEF763D00439966 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF2EE3F2BEF763D00439966 /* Launch Screen.storyboard */; };
 		3CF2EE442BF0C52400439966 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE432BF0C52400439966 /* AuthViewModel.swift */; };
+		3CF2EE462BF10B6200439966 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE452BF10B6200439966 /* LandingView.swift */; };
+		3CF2EE4B2BF112B300439966 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2EE4A2BF112B300439966 /* CarDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		3CF2EE3D2BEF752400439966 /* LoginViewTextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewTextComponent.swift; sourceTree = "<group>"; };
 		3CF2EE3F2BEF763D00439966 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3CF2EE432BF0C52400439966 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		3CF2EE452BF10B6200439966 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		3CF2EE4A2BF112B300439966 /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		3CF2EE1E2BECD79C00439966 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				3CF2EE492BF112A200439966 /* CarDetailView */,
 				3CF2EE382BEF64A000439966 /* LoginView */,
 				3CF2EE322BEDE9D300439966 /* ProfileView */,
 				3CF2EE2D2BEDE88000439966 /* CarListingView */,
@@ -203,6 +208,7 @@
 			children = (
 				3CF2EE392BEF64B300439966 /* LoginView.swift */,
 				3CF2EE3B2BEF64C500439966 /* RegistrationView.swift */,
+				3CF2EE452BF10B6200439966 /* LandingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,6 +219,14 @@
 				3CF2EE432BF0C52400439966 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3CF2EE492BF112A200439966 /* CarDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				3CF2EE4A2BF112B300439966 /* CarDetailView.swift */,
+			);
+			path = CarDetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF2EE122BECD6D100439966 /* ContentView.swift in Sources */,
+				3CF2EE462BF10B6200439966 /* LandingView.swift in Sources */,
+				3CF2EE4B2BF112B300439966 /* CarDetailView.swift in Sources */,
 				3CF2EE262BECE40900439966 /* LaunchScreenViewModel.swift in Sources */,
 				3CF2EE312BEDE8BD00439966 /* HomeTabView.swift in Sources */,
 				3CF2EE3A2BEF64B300439966 /* LoginView.swift in Sources */,

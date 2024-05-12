@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject var viewmodel: LaunchScreenViewModel
     var body: some View {
-        LoginView()
+        LandingView()
 //        Group{
 //            
 //            if(viewmodel.isStartStopClicked){
